@@ -18,7 +18,6 @@ public class App {
         vPenezence += sc.nextInt()*50;
         System.out.println("Zadej cenu položky");
         int cena = sc.nextInt();
-        System.out.println(vPenezence);
 
         int zbytek = vPenezence - cena;
         if(zbytek <= 0){
